@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie - lekcja 13</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 500px;
+            margin: auto;
+            background-color: #3b29a3;
+            justify-content: center;
+            text-align: center;
+        }
+        header {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        h1 {
+            color: #52b916;
+        }
+        #lista{
+            color: #006400;
+            text-align: center;
+        }
+        th,td{
+            text-align: center;
+        }
+        td{
+            width: 70px; height: 70px;
+        }
+        th{
+            width: 50px; height: 50px;
+        }
+        #gora{
+            background-color: #3f31ff;
+        }
+        #span{
+            background-color: #024619;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Tabela 1</h1>
+     <table border="1">
+        <TR>
+            <th id="gora">1</th>
+            <th id="gora">2</th>
+            <th id="gora">3</th>
+            <th id="gora">4</th>
+            <th id="gora">5</th>
+            <th id="gora">6</th>
+        </TR>
+        <TR>
+            <th id="gora">2</th>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+        </TR>
+        <TR>
+            <th id="gora">3</th>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+            <td>j</td>
+        </TR>
+        <TR>
+            <th id="gora">4</th>
+            <td>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td>
+            <td>o</td>
+        </TR>
+        <TR>
+            <th id="gora">5</th>
+            <td>p</td>
+            <td>q</td>
+            <td>r</td>
+            <td>s</td>
+            <td>t</td>
+        </TR>
+        <TR>
+            <th id="gora">6</th>
+            <td>u</td>
+            <td>v</td>
+            <td>w</td>
+            <td>y</td>
+            <td>z</td>
+        </TR>
+     </table><br>
+    </div>
+
+    <div>
+     <h1>Tabela 2</h1><br>
+     <table border="1">
+        <TR>
+            <th id="gora">1</th>
+            <th id="gora">2</th>
+            <th id="gora">3</th>
+            <th id="gora">4</th>
+            <th id="gora">5</th>
+            <th id="gora">6</th>
+        </TR>
+        <TR>
+            <th id="gora">2</th>
+            <td>a</td>
+            <td colspan="2" id="span">b, c</td>
+            <td>d</td>
+            <td>e</td>
+        </TR>
+        <TR>
+            <th id="gora">3</th>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+            <td rowspan="2" id="span">j, o</td>
+        </TR>
+        <TR>
+            <th id="gora">4</th>
+            <td>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td>
+        </TR>
+        <TR>
+            <th id="gora">5</th>
+            <td colspan="3" rowspan="2" id="span">p, q, r, u, v, w</td>
+            <td>s</td>
+            <td>t</td>
+        </TR>
+        <TR>
+            <th id="gora">6</th>
+            <td>y</td>
+            <td>z</td>
+        </TR>
+     </table><br>
+    </div>
+
+    <div>
+     <h1>Tabela 3</h1><br>
+     <table border="1">
+        <TR>
+            <th id="gora">1</th>
+            <th id="gora">2</th>
+            <th id="gora">3</th>
+            <th id="gora">4</th>
+            <th id="gora">5</th>
+            <th id="gora">6</th>
+        </TR>
+        <TR>
+            <th id="gora">2</th>
+            <td>a</td>
+            <td rowspan="4" colspan="3" id="span">b, c, d, g, h, i, l, m, n, q, r, s</td>
+            <td>e</td>
+        </TR>
+        <TR>
+            <th id="gora">3</th>
+            <td>f</td>
+            <td>g</td>
+        </TR>
+        <TR>
+            <th id="gora">4</th>
+            <td>k</td>
+            <td>l</td>
+        </TR>
+        <TR>
+            <th id="gora">5</th>
+            <td>p</td>
+            <td>q</td>
+        </TR>
+        <TR>
+            <th id="gora">6</th>
+            <td>u</td>
+            <td>v</td>
+            <td>w</td>
+            <td>y</td>
+            <td>z</td>
+        </TR>
+     </table><br>
+    </div>
+</body>
+</html>
