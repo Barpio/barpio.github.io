@@ -1,0 +1,71 @@
+<html><head>
+    <meta charset="UTF-8">
+    <title>Kotwice</title>
+    <style>
+        img {
+            width: 200px;
+            height: auto;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .content {
+            width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Linki</h1>
+    </header>
+        <div class="content">
+            <h1>Definiowanie kotwic na stronie</h1>
+
+            <section>
+                <h2 id="a_top">Kotwica o nazwie <i>a_top</i></h2>
+                <p>
+                <a href="#a_bottom">Link do kotwicy dolnej</a>
+                </p><figure>
+                    <img src="kotwica1.png">
+                    <figcaption>Zdjęcie pierwsze</figcaption>
+                </figure>
+                <p></p>
+            </section>
+
+            <section>
+                <br>
+                <p>
+                Zdefiniowanie kotwicy w konkretnym miejscu dokumentu HTML<br>
+                i wskazanie tej kotwicy w linku do tego dokumentu,<br>
+                spowoduje po jego otwarciu, przewinięcie -<br>
+                tak aby wiersz zawierający kotwicę znajdował się jak najbliżej górnej krawędzi okna przeglądarki.<br>
+                Aby było co przewijać, dodamy dwa rysunki kotwic oraz linie puste,<br>
+                a następnie zdefiniujemy dwie kotwice.
+                <br>
+                </p>
+            </section>
+
+            <section>
+                <a name="a_bottom"></a>
+                <h2>Kotwica o nazwie <i>a_bottom</i></h2>
+                <p>
+                <a href="#a_top">Link do kotwicy górnej</a>
+                </p><figure>
+                    <img src="kotwica2.jfif">
+                    <figcaption>Zdjęcie drugie</figcaption>
+                </figure>
+                <p></p>
+            </section>       
+    </div>
+
+</body></html>
